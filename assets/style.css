@@ -22,22 +22,15 @@ body {
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 200ms;
-}
-
-.cartao:hover {
-    transform: scale(1.05);
 }
 
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
+    /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
-    border-radius: 10px;
-    overflow: hidden;
 }
 
 .cartao__conteudo h3 {
@@ -55,6 +48,7 @@ body {
 .cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
+    margin-top: 4rem;
     font-size: 1.4vw;
 }
 
@@ -103,12 +97,13 @@ footer p {
 }
 
 @media (max-width: 560px) {
+    
     body {
-        background: url('img/bg-mobile.webp') no-repeat cover;
+        background: url('img/bg-mobile.webp'), no-repeat cover;
     }
 
     .cartao {
-        flex: 1 0 calc(100% - 1rem);
+        flex: 1 0 calc(100% - 1rem)
     }
 
     .cartao__conteudo h3 {
