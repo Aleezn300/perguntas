@@ -1,23 +1,23 @@
 criaCartao(
-    'Ciencia'
-    'Qual é o gás mais abundante na atmosfera da Terra?'
-    'O nitrogênio, que compõe cerca de 78% da atmosfera'
-)
-
-criaCartao(
-    'Geografia'
-    'Qual é o maior continente do mundo?'
-    'A Ásia é o maior continente do mundo, tanto em área quanto em população'
+    'Programação',
+    'O que é Python?',
+    'O Python é uma linguagem de programação'
 )
 
 criaCartao(
     'Geografia',
-    'Qual é a capital do Brasil?'
-    'Brasília.'
+    'Qual a capital da França?',
+    'A capital da França é Paris'
 )
 
 criaCartao(
-    'Conhecimentos gerais'
-    'Qual é o esporte mais popular do mundo?'
-    'Futebol'
+    'Programação',
+    'O que é uma função?',
+    'Uma função é um bloco de código que executa alguma tarefa'
+)
+
+criaCartao(
+    'Lingua inglesa',
+    'Como se diz oi em Inglês?',
+    'Oi em ingles é HI (RAI)'
 )
