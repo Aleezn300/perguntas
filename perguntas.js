@@ -1,7 +1,7 @@
 criaCartao(
-    'Programação',
-    'O que é Python?',
-    'O Python é uma linguagem de programação'
+    'Ciencias',
+    'Qual é o maior planeta do Sistema Solar?',
+    'maior planeta do Sistema Solar é Júpiter.'
 )
 
 criaCartao(
@@ -11,9 +11,9 @@ criaCartao(
 )
 
 criaCartao(
-    'Programação',
-    'O que é uma função?',
-    'Uma função é um bloco de código que executa alguma tarefa'
+    'Conhecimentos Gerais',
+    'Em que ano o homem pisou na Lua pela primeira vez?',
+    'O homem pisou na Lua pela primeira vez em 1969.'
 )
 
 criaCartao(
